@@ -1,38 +1,121 @@
-.App {
-  text-align: center;
+*{
+  margin: 0;
+  padding: 0;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+body{
+  background-color: black;
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.container{
+  border: 1px solid rgb(126, 137, 199);
+  border-radius: 5px;
+  height:650px;
+  width: 950px;
+  margin: auto;
+  margin-top: 50px;
+  background-image: linear-gradient(to bottom left,black 5%,rgb(41, 75, 126));
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.main{
+  /* border: 1px solid white; */
+  background:rgba(0,0,0,0.6) url(https://img.freepik.com/premium-vector/day-with-clouds-weather-app-screen-mobile-interface-design-forecast-weather-background-time-concept-vector-banner_87946-4137.jpg?w=2000);
+background-blend-mode: darken;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height:650px;
+  width: 300px; 
+  float: left;
+}
+.maincityname{
+  margin-top: 15px;
+  margin-left: 15px;
+  width: 150px;
+  height: 30px;
+  border-radius: 5px;
+  outline: none;
+  font-size: large;
+  padding-left: 10px;
+}
+.divmainLogo{
+  height: 150px;
+  width: 150px;
+  margin: auto;
+  margin-top: 70px;
+}
+.mainLogo{
+  height: 100%;
+  width: 100%;
+}
+.main°C{    
+  margin-top: 20px;
+  text-align: center;
+  font-size:50px;
+}
+.weatherStatus{
+  margin-top: 50px;
+  text-align: center;
+  font-size:30px;
+}
+.maindate{
+  margin-top: 40px;
+  text-align: center;
+}
+.mainLocaton{
+  margin-top: 40px;
+  text-align: center;
+}
+.cities-div{
+  /* border: 1px solid white; */
+  height: 250px;
+  width: 646px;
+  float: right;
+  overflow: hidden;
+}
+.city{
+  border-radius: 2px;
+  background-color: rgb(29, 64, 97);
+  height: 150px;
+  width: 100px;
+  padding: 10px 5px 5px 5px;
+  margin-top: 50px;
+  margin-left: 14px;
+  text-align: center;
+  display: inline-block;
+}
+.citylogo{
+  height: 60px;
+  width: 60px;
+  margin: auto;
+  margin-top: 25px;
+  margin-bottom: 15px;
+  
+  display: flex;
+}
+.cityinline{
+  display: inline;
+  margin-right:10px;
+  margin-left: 10px;
+}
+.data{
+  /* border: 1px solid white; */
+  height: 396px;
+  width: 646px;
+  float: right;
+}
+.highlights{
+  margin-left: 50px;
+}
+.info1{
+  /* border: 1px solid white; */
+   background-color: rgb(29, 64, 97);
+   border-radius: 5px;
+  height: 100px;
+  width: 250px;
+  padding-top: 15px;
+  display: inline-block;
+  margin-top: 50px;
+  margin-left: 50px;
+text-align: center;
+}
+.infoStatus{
+  margin-top: 10px;
 }
