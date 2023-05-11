@@ -58,7 +58,7 @@ const WeatherHome = () => {
                         <h3 className="main°C">{Math.round( weatherDetails.main.temp)}°C</h3>
                         <h3 className="weatherStatus">{weatherDetails.weather[0].main}</h3>
                         <h5 className="maindate">Today -{currentDate} </h5>
-                        <h3 className="mainLocaton"><span><i className="bi bi-geo-alt-fill"></i></span>{weatherDetails.name} ({weatherDetails.sys.country})</h3>
+                        <h3 className="mainLocaton"><span><i className="bi bi-geo-alt-fill"></i></span> {weatherDetails.name} ({weatherDetails.sys.country})</h3>
                     </div>) : null}
                     </div>
                     <div className="cities-div">
